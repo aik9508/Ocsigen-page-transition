@@ -1,0 +1,21 @@
+{
+  "name": "npt",
+  "version": "1.0.0",
+  "description": "Instructions ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "ke_wang <ke.wang.x15@polytechnique.edu>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "cordova": "^7.0.1",
+    "cordova-hot-code-push-cli": "^1.1.1",
+    "postcss-cli": "^4.1.0",
+    "read-package-json": "^2.0.10",
+    "xml2js": "^0.4.17"
+  },
+  "devDependencies": {}
+}
