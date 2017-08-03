@@ -268,3 +268,28 @@ make run-ios
 
 This file is meant for rules and variables that are only relevant for local development
 and it must not be deployed or shared (by default, this file is ignored by Git).
+
+## Dependencies
+
+You need to install the dev version of Eliom which contains the code for page transition
+animation with the command line :
+
+```
+opam pin add eliom git@github.com:aik9508/eliom.git
+```
+
+In this project, we use cordova-screenshot plugin to get the screenshot of pages. In order
+to render the screenshot taking function synchronous, we made some modification on the plugin.
+See [cordova-screenshot](https://github.com/aik9508/cordova-screenshot).The original plugin 
+is available [here](https://github.com/gitawego/cordova-screenshot). A pull request will be
+made to merge the two respositories. 
+
+## Example
+
+An example is given in the file `demo_msp.eliom`. But the readme file and comments are for the
+moment far from complete. 
+
+
+
+
+
