@@ -7,6 +7,6 @@ let get_screen_shot ?(quality=50) call_back_fun () : unit =
   let f_callback = 
     Js.wrap_callback call_back_fun in
   Js.Unsafe.meth_call 
-    screenshot "URI" 
+    screenshot "URISync" 
     [|Js.Unsafe.inject f_callback ;
       Js.Unsafe.inject quality|]
